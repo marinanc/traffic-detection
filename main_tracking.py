@@ -81,7 +81,7 @@ cap = cv2.VideoCapture("cut3_sjuanycan.mp4")
 cv2.namedWindow("Video Original")
 cv2.setMouseCallback("Video Original", mouse_drawing)
 
-substraction = cv2.createBackgroundSubtractorKNN(detectShadows=False)
+substraction = cv2.createBackgroundSubtractorKNN()
 
 while True:
     ret, frame = cap.read()
@@ -143,12 +143,12 @@ while True:
             if not validate_contour:
                 continue
             cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)  # Rectangle around the object
-            centro = find_center(x, y, w, h)
-            detec.append(centro)
-            cv2.circle(frame, centro, 4, (0, 0, 255), -1)
+            center = find_center(x, y, w, h)
+            detec.append(center)
+            cv2.circle(frame, center, 4, (0, 0, 255), -1)
             for (x, y) in detec:
-                if point1:
-                    if point1[1] > y > point2[1] and point1[0] > x > point2[0]:
+                if point1 and point2:
+                    if (point2[1]+offset) > y > (point1[1]-offset) and point2[0] > x > point1[0]:
                         vehicle += 1
                         success, img_cap = cap.read()
                         # Snapshot
@@ -166,7 +166,7 @@ while True:
                             #       out.write(frame)
                             #   else:
                             #       break
-                        if (point1[1] + offset) > y > (point2[1] - offset) and point1[0] > x > point2[0]:
+                        if (point2[1]+offset) > y > (point1[1]-offset) and point2[0] > x > point1[0]:
                             cv2.line(frame, point1, point2, (0, 0, 255), 3)
 
     cv2.putText(frame, "VEHICULOS: " + str(vehicle), (450, 70), cv2.FONT_HERSHEY_SIMPLEX, 2, (0, 0, 255), 5)

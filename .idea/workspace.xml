@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56db79bb-8e91-4c9c-a138-46da31dc32d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main_tracking.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_tracking.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +29,34 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RunManager">
+    <configuration name="main_tracking" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="traffic-detection" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_tracking.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main_tracking" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -41,6 +71,42 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state width="476" height="540" key="DebuggerActiveHint" timestamp="1584626292394">
+      <screen x="67" y="27" width="1301" height="741" />
+    </state>
+    <state width="476" height="540" key="DebuggerActiveHint/67.27.1301.741@67.27.1301.741" timestamp="1584626292394" />
+    <state width="639" height="175" key="GridCell.Tab.0.bottom" timestamp="1584628805358">
+      <screen x="67" y="27" width="1301" height="741" />
+    </state>
+    <state width="639" height="175" key="GridCell.Tab.0.bottom/67.27.1301.741@67.27.1301.741" timestamp="1584628805358" />
+    <state width="639" height="175" key="GridCell.Tab.0.center" timestamp="1584628805357">
+      <screen x="67" y="27" width="1301" height="741" />
+    </state>
+    <state width="639" height="175" key="GridCell.Tab.0.center/67.27.1301.741@67.27.1301.741" timestamp="1584628805357" />
+    <state width="639" height="175" key="GridCell.Tab.0.left" timestamp="1584628805357">
+      <screen x="67" y="27" width="1301" height="741" />
+    </state>
+    <state width="639" height="175" key="GridCell.Tab.0.left/67.27.1301.741@67.27.1301.741" timestamp="1584628805357" />
+    <state width="639" height="175" key="GridCell.Tab.0.right" timestamp="1584628805358">
+      <screen x="67" y="27" width="1301" height="741" />
+    </state>
+    <state width="639" height="175" key="GridCell.Tab.0.right/67.27.1301.741@67.27.1301.741" timestamp="1584628805358" />
+    <state width="1278" height="219" key="GridCell.Tab.1.bottom" timestamp="1584626506915">
+      <screen x="67" y="27" width="1301" height="741" />
+    </state>
+    <state width="1278" height="219" key="GridCell.Tab.1.bottom/67.27.1301.741@67.27.1301.741" timestamp="1584626506915" />
+    <state width="1278" height="219" key="GridCell.Tab.1.center" timestamp="1584626506914">
+      <screen x="67" y="27" width="1301" height="741" />
+    </state>
+    <state width="1278" height="219" key="GridCell.Tab.1.center/67.27.1301.741@67.27.1301.741" timestamp="1584626506914" />
+    <state width="1278" height="219" key="GridCell.Tab.1.left" timestamp="1584626506914">
+      <screen x="67" y="27" width="1301" height="741" />
+    </state>
+    <state width="1278" height="219" key="GridCell.Tab.1.left/67.27.1301.741@67.27.1301.741" timestamp="1584626506914" />
+    <state width="1278" height="219" key="GridCell.Tab.1.right" timestamp="1584626506915">
+      <screen x="67" y="27" width="1301" height="741" />
+    </state>
+    <state width="1278" height="219" key="GridCell.Tab.1.right/67.27.1301.741@67.27.1301.741" timestamp="1584626506915" />
     <state x="373" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1584370116928">
       <screen x="67" y="27" width="1301" height="741" />
     </state>
