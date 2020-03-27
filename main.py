@@ -32,7 +32,7 @@ def find_center(x, y, w, h):
 
 
 cap = cv2.VideoCapture('cut3_sjuanycan.mp4')
-substraction = cv2.createBackgroundSubtractorKNN(detectShadows=False)  # search history y varTreshold
+substraction = cv2.createBackgroundSubtractorMOG2(100, 50, False)  # search history y varTreshold
 # substraction = cv2.bgsegm.createBackgroundSubtractorMOG() python2.7
 
 while True:
